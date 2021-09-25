@@ -29,9 +29,7 @@ const TodoList = () => {
           {TodoListData.map((TodoListItem) => (
             <TodoItem TodoListItem={TodoListItem} key={TodoListItem.Id} />
           ))}
-          
         </ul>
-        <h2>What the heck</h2>
       </div>
     </div>
   );
